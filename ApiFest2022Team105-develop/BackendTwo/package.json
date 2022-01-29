@@ -1,0 +1,21 @@
+{
+  "name": "backendtwo",
+  "version": "1.0.0",
+  "description": "Backend for Team 105 API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": "Team 105 API",
+  "license": "ISC",
+  "dependencies": {
+    "ajv-errors": "^3.0.0",
+    "fastify": "^3.27.0",
+    "fastify-openapi-glue": "^2.6.6",
+    "nanoid": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
